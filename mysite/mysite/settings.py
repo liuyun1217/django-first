@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'lists.apps.ListsConfig',
     'liaotian.apps.LiaotianConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',

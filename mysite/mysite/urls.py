@@ -20,5 +20,6 @@ urlpatterns = [
     path('liaotian/', include('liaotian.urls')),
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
+    path('lists/', include('lists.urls')),
     path('', admin.site.urls),
 ]
